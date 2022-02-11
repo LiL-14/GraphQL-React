@@ -1,0 +1,50 @@
+.containerHeader{
+    background-color: #448c96;
+    border-radius: 5px;
+
+    .search{
+        background-color: #4F4F4F;
+        height: 50px;
+        display: flex;
+        .iconRandom{
+            color: white;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+
+        input{
+            position: relative;
+            left: 75%;
+            top: 10px;
+            border-radius: 7px;
+            border: none;
+            height: 25px;
+        }
+    }
+
+    .text{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        padding: 90px;
+
+        .description{
+            font-size: 1.4rem;
+        }
+
+        .description:hover{
+            font-size: 1.7rem;
+            transition: 2s;
+        }
+    }
+    .text:hover{
+        transition: 2s;
+        font-size: 1.9rem;
+    }
+}

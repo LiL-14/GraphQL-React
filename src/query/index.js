@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 
 const INFO_PERSON = gql `
-    querys{
+    query{
         characters{
             results{
                 name
