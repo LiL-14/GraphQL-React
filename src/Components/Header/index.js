@@ -5,11 +5,6 @@ function Header(){
     return(
         
         <div className="containerHeader">
-            <div className="search">
-                <AiOutlineAliwangwang className="iconRandom"/>
-                <AiOutlineSearch/>
-                <input type="text"/>
-            </div>
 
             <div className="text">
                 <h4>API Rick and Morty</h4>
